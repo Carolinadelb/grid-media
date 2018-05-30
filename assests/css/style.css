@@ -1,0 +1,44 @@
+img{
+    width: 100%;
+}
+
+.titulo{
+    text-align: center;
+    padding: 5%;
+    font-family: 'Butterfly Kids', cursive;
+}
+.primera_seccion{
+    text-align: justify;
+    padding: 5%;
+    font-size: 20px;
+}
+p{
+    font-family: 'Butterfly Kids', cursive;
+    
+}
+
+@media (min-width: 200px) and (max-width: 424px) {
+    [class*="col-"]{
+        width: 100%;
+        text-align: center;
+    }
+.gatito{
+    content: url("../img/img_es_buena_la_miel_para_los_gatos_22828_600.jpg");
+
+    }
+
+body{
+    background-color: red;
+
+    }
+.titulo {
+    font-family: 'Bowlby One SC', cursive;
+}
+}
+
+@media (min-width:425px) and (max-width: 768px) {
+    [class*="col-"]{
+        width:100%;
+        text-align: center;
+    }
+    }
